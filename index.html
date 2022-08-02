@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>increament counter</title>
+    <style>
+        body{
+            text-align: center;
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            margin-top: 250px;
+            background-color: aquamarine;
+        }
+        body div span{
+            font-size: 40px;
+
+        }
+        .counter{
+            font-size: 30px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter-container">
+        <i class="fa-solid fa-mug-hot fa-5x"></i>
+        <div class="counter" data-target="4000"></div>
+        <span>Project complete</span>
+    </div>
+    <div class="counter-container">
+        <i class="fa-solid fa-people-group fa-5x"></i>
+        <div class="counter" data-target="15000"></div>
+        <span>Our's Happy Customer</span>
+    </div>
+    <div class="counter-container">
+        <i class="fa-solid fa-tasks fa-5x"></i>
+        <div class="counter" data-target="500"></div>
+        <span>On going Project</span>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
